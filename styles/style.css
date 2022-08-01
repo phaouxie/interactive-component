@@ -2,13 +2,14 @@ body{
     background: hsl(216, 12%, 8%);
     color: #fff;
     font-size: 15px;
-    font-family: cursive;
+    font-family: Overpass;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    text-align: center;
 }
 .card{
     width: 350px;
@@ -69,4 +70,16 @@ body{
 }
 .hide{
     display: none;
+}
+.submit{
+    padding: 1rem;
+    width: 100%;
+    border-radius: 2rem;
+    background-color: hsl(25, 97%, 53%);
+    
+
+
+}
+.submit:hover{
+    background-color: #fff;
 }
