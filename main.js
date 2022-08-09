@@ -8,8 +8,9 @@ Array.from(btn).forEach(btn =>{
     btn.addEventListener('click' , e => {
         const rating = e.target.textContent
         span.textContent = rating
-       // card2.classList.remove('hide')
-        //Card.classList.add('hide')
+        
+        //btn.classList.remove('hide')
+        btn.classList.add('actv')
     })
 })
 submit.addEventListener('click', function(e){
@@ -19,3 +20,4 @@ submit.addEventListener('click', function(e){
     card2.classList.remove('hide')
         Card.classList.add('hide')
 })
+console.log(btn[1]);

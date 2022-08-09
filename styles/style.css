@@ -32,7 +32,11 @@ body{
     background-color: hsl(217, 12%, 63%);
     color: #fff;
 }
+.actv{
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
 
+}
 /* active state */
 .btn-container button:active{
     background-color: hsl(25, 97%, 53%);
@@ -82,4 +86,10 @@ body{
 }
 .submit:hover{
     background-color: #fff;
+}
+.selection{
+    color:  hsl(25, 97%, 53%);
+    border-radius: 2rem;
+    background-color:  hsl(212, 17%, 20%);
+    
 }
